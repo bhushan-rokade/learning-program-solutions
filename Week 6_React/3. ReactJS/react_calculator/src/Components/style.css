@@ -1,0 +1,11 @@
+.formatstyle {
+  text-align: center;
+  font-size: large;
+  display: flex;
+  height: 100lvh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}

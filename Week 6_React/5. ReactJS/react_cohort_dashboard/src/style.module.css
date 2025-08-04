@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 20px;
+}
+
+.box {
+  width: 340px;
+  display: inline-block;
+  margin: 16px;
+  padding: 20px 24px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  vertical-align: top;
+}
+
+.box:hover {
+  background-color: #fdfdfd;
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+
+dt {
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+dd {
+  margin: 0 0 12px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.ongoing {
+  background-color: #e6f4ec;
+  color: #228c5b;
+}
+
+.other-status {
+  background-color: #f0f0f0;
+  color: #444;
+}

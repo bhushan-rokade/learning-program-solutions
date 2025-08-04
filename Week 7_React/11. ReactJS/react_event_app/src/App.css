@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f2f4f8;
+}
+
+.counter-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+  font-size: 1.8rem;
+}
+
+.count-display {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: #34495e;
+  font-weight: 600;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.increment {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.increment:hover {
+  background-color: #27ae60;
+}
+
+.decrement {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.decrement:hover {
+  background-color: #c0392b;
+}
+.currency-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.currency-container h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+  font-size: 1.8rem;
+}
+
+.currency-container form {
+  margin-bottom: 20px;
+}
+
+.currency-container label {
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 10px;
+  color: #34495e;
+  font-weight: 500;
+}
+
+.currency-container input[type='number'] {
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-top: 5px;
+  transition: border-color 0.3s;
+}
+
+.currency-container input[type='number']:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.currency-container button {
+  margin-top: 16px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.currency-container button:hover {
+  background-color: #0056b3;
+}
+
+.currency-container p {
+  font-size: 1.1rem;
+  color: #2c3e50;
+  margin-top: 16px;
+}
+.event-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.event-container h2 {
+  font-size: 1.6rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.event-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #6c5ce7;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.event-button:hover {
+  background-color: #5a4bcf;
+}
+.welcome-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.welcome-container h2 {
+  color: #2c3e50;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.welcome-button {
+  background-color: #ff6b6b;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.welcome-button:hover {
+  background-color: #e04848;
+}

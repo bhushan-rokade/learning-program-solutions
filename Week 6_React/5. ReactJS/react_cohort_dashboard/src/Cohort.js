@@ -1,0 +1,60 @@
+const CohortsData = [
+  {
+    cohortCode: 'INDFSD23A01',
+    startDate: '10-Aug-2023',
+    technology: 'Java Full Stack',
+    trainerName: 'Rajesh Kumar',
+    coachName: 'Anjali Verma',
+    currentStatus: 'Scheduled',
+  },
+  {
+    cohortCode: 'INDFSD22J02',
+    startDate: '15-Sep-2022',
+    technology: 'Python Full Stack',
+    trainerName: 'Neha Sharma',
+    coachName: 'Vikram Singh',
+    currentStatus: 'Ongoing',
+  },
+  {
+    cohortCode: 'INDFSD22P03',
+    startDate: '01-Oct-2022',
+    technology: 'MERN Stack',
+    trainerName: 'Amit Patel',
+    coachName: 'Priya Mehta',
+    currentStatus: 'Ongoing',
+  },
+  {
+    cohortCode: 'INDFSD23M04',
+    startDate: '05-Jul-2023',
+    technology: 'Data Science',
+    trainerName: 'Kavita Nair',
+    coachName: 'Rohit Yadav',
+    currentStatus: 'Scheduled',
+  },
+  {
+    cohortCode: 'INDFSD22K05',
+    startDate: '20-Nov-2022',
+    technology: 'Java Full Stack',
+    trainerName: 'Arjun Rao',
+    coachName: 'Sneha Iyer',
+    currentStatus: 'Ongoing',
+  },
+  {
+    cohortCode: 'INDFSD23D06',
+    startDate: '01-Aug-2023',
+    technology: 'Android Development',
+    trainerName: 'Deepika Joshi',
+    coachName: 'Manish Rathi',
+    currentStatus: 'Scheduled',
+  },
+  {
+    cohortCode: 'INDFSD22C07',
+    startDate: '10-Dec-2022',
+    technology: 'React Native',
+    trainerName: 'Saurabh Tiwari',
+    coachName: 'Ritika Jain',
+    currentStatus: 'Ongoing',
+  },
+];
+
+export { CohortsData };

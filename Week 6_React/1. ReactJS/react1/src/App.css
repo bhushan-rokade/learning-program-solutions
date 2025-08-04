@@ -1,0 +1,11 @@
+body {
+  height: 100lvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 100px;
+  font-style: Bold;
+}
