@@ -2,7 +2,7 @@
 
 ## Objectives
 
-- Demonstrate how to create a README file, commit it, and push changes to a remote Git repository.
+- Demonstrate how to commit and push changes to a remote Git repository.
 
 ## Steps Performed
 
